@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux';
 import gamesReducer from './gamesReducer';
+import detailReducer from './detailReducer';
+
 
 /*
 const initState = {
@@ -17,6 +19,7 @@ const userReducer = (state = initState, action) => {
 
 const rootReducer = combineReducers({
     games: gamesReducer,
+    detail: detailReducer,
     //user:  userReducer
 })
 
